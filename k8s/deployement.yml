@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: dart-app
-        image: your-dart-app-image:latest
+        image: soumyahe/dart-docker:latest
         ports:
         - containerPort: 8000
         resources:
